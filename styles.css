@@ -1,0 +1,109 @@
+/* Header */
+h1 {
+    padding: 20px;
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+}
+/* Body */
+body {
+    background-color: rgb(250, 236, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #322424;
+}
+#img {
+    border-radius: 50%;
+    border: 2px solid #322424;
+    display: block;
+    margin: 0 auto;
+}
+.subtitle {
+    font-size: 2rem;
+    color: brown;
+    margin: auto;
+    padding: 20px;
+}
+.subtitle2 {
+    font-size: 1.5rem;
+    color: rgb(124, 31, 31);
+    margin: auto;
+    padding: 20px;
+}
+p {
+    font-size: 16px;
+    color: #322424;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
+/* Enlaces */
+.enlace {
+    color: #322424;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+.enlace:hover {
+    color: #3800d2;
+}
+/* Tabla*/
+.mi-tabla {
+    width: 80%;
+    margin: 0 auto;
+}
+.mi-tabla th {
+    background-color: brown;
+    color: rgb(250, 236, 236); 
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+.mi-tabla td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.mi-tabla tr:hover {
+    background-color: #3800d264;
+}
+/* Formulario */
+.mi-formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(173, 119, 119);
+    border-radius: 8px;
+}
+label{
+    display: block;
+    margin: 0 0 0;
+    font-weight: bold;
+}
+input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #3800d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: brown;
+}
+.enviar {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+/* Contenedor */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dcbfbf; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
